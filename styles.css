@@ -6,33 +6,6 @@
 /* 
 -----------------------------------CSS de Index----------------------------------- */
 
-.container {  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: .1fr .1fr .1fr .1fr .1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "header header"
-      "parallax parallax"
-      "noticias1aside1 noticias1aside1"
-      "noticias2aside2 noticias2aside2"
-      "footer footer";
-  }
-  
-  .header { grid-area: header; }
-  
-  .parallax { grid-area: parallax; }
-  
-  .noticias1aside1 { grid-area: noticias1aside1; }
-  
-  .noticias2aside2 { grid-area: noticias2aside2; }
-  
-  .footer { grid-area: footer; }
-  
-
-  .container { 
-    width: 100%;
-  }
 
 .header {
     background-color: rgb(165, 165, 165);
@@ -83,9 +56,11 @@
     transition: 0.5s;
 }
 
+
+
 .main {
     background-color: rgb(250, 249, 237);
-
+height: 400vh;
 
 }
 
@@ -209,58 +184,22 @@
     padding-bottom: 30px;
 }
 
-.main__section2 {
-    height: 40vh;
-    display: flex;
-    padding-bottom: 10px;
+
+.card-group {
+    padding: 20px;
 }
 
-.main__section2--article1 {
-    width: 50%;
+.card {
     background-color: rgb(253, 235, 214);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 5px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-
+    
 }
 
-.main__section2--article1 h3 {
-    text-align: center;
-    padding-bottom: 10px;
+#carouselExampleIndicators {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
-.main__section2--article1 img {
-    float: right;
-    margin-left: 10px;
-}
-
-
-.main__section2--article2 {
-    width: 50%;
-    background-color: rgb(253, 235, 214);
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 10px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
-.main__section2--article2 h3 {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.main__section2--article2 img {
-    float: right;
-    margin-left: 10px;
-}
-
 
 
 
@@ -268,7 +207,7 @@
     background-color: rgb(12, 68, 8);
     display: flex;
     justify-content: space-around;
-    height: 18vh;
+    height: 25vh;
 
 }
 
@@ -366,7 +305,7 @@
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    height: 110vh;
+    height: 90vh;
 
 }
 
@@ -394,50 +333,13 @@
 
 }
 
-.main__contacto__section--form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 40px;
+.main__contacto--form {
     padding-left: 100px;
-
+    padding-top: 20px;
 }
 
-.main__contacto__section--form fieldset {
-    background-color: rgba(146, 182, 204, 0.479);
-    height: 280px;
-    width: 400px;
-}
-
-.main__contacto__section--form fieldset legend {
-    font-weight: bold;
-    text-align: center;
-}
-
-.main__contacto__section--form fieldset label {
-    padding: 20px;
-    font-weight: bold;
-    margin-left: 10px;
-
-}
-
-.main__contacto__section--form--input {
-    margin-top: 50px;
-    margin-left: 40px;
-    background: none;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid black;
-}
-
-.main__contacto__section--form--input {
-    margin-top: 10px;
-    margin-left: 10px;
-
-}
-
-.main__contato__section--form--resetsubmit {
-    margin-left: 140px;
+.submit-reset {
+    padding: 30px;
 }
 
 /* ----------------------------------------------------CSS DE UBICACION----------------------------------------------- */

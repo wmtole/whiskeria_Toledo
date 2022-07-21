@@ -7,17 +7,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="icon" href="./multimedia/32442tumblerglass_98923.png">
-    <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <!-- CSS Bootstrap only-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+   
 
 </head>
 
 <body id="body__index">
-    <div class="container">
         <!-- Logo + header -->
-        <div class="header">
             <header class="header">
                 <a href="index.html">
                     <img src="multimedia/glass.png" alt="vaso de whisky" width="50px" height="45px" title="Logo">
@@ -33,8 +35,6 @@
                     </ul>
                 </nav>
             </header>
-        </div>
-        <div class="parallax">
             <!-- Acá comienza el contenido principal de la pagina -->
             <main class="main">
                 <div class="main__div">
@@ -48,8 +48,6 @@
                     que te
                     hagas miembro de La Whiskería para poder disfrutar de nuestros beneficios.</p>
 
-        </div>
-        <div class="noticias1aside1">
             <section class="main__section">
                 <article class="main__section--article">
                     <h2 class="main__section--article--h2">5 whiskies para celebrar el Día Mundial del Whisky 2022</h2>
@@ -86,33 +84,74 @@
                     <br>
                 </aside>
             </section>
-        </div>
-        <div class="noticias2aside2">
-            <section class="main__section2">
-                <article class="main__section2--article1">
-                    <h3>Famosos amantes del whisky </h3>
+            <div class="card-group">
+                <div class="card">
+                  <img src="multimedia/famosos-bebiendo-whisky.jpg" class="card-img-top" alt="..." height="250px">
+                  <div class="card-body">
+                    <h5 class="card-title">Famosos amantes del whisky</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                        <a class="btn btn-secondary" href="pages/historia.html" role="button">Leer en Historia</a>
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Actualizado recientemente</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="multimedia/whisky.caro.jpg" class="card-img-top" alt="..." height="250px" >
+                  <div class="card-body">
+                    <h5 class="card-title">Venden el whiskey más caro de la historia</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                        <a class="btn btn-secondary" href="pages/historia.html" role="button">Leer en Historia</a>
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Actualizado recientemente</small>
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="multimedia/dalwhinnie-distillery.jpg" class="card-img-top" alt="..." height="250px">
+                  <div class="card-body">
+                    <h5 class="card-title">Dalwhinnie, la destilería más fría de Escocia</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.
+                        <a class="btn btn-secondary" href="pages/historia.html" role="button">Leer en Historia</a>
+                    </p>
+                  </div>
+                  <div class="card-footer">
+                    <small class="text-muted">Actualizado recientemente</small>
+                  </div>
+                </div>
+              </div>
 
-                    <img src="./multimedia/famosos-bebiendo-whisky.jpg" alt="famosos bebiendo whisky"
-                        title="famosos-bebiendo-whisky" width="300px" height="180px">
-                    <a href="/pages/blog.html"> Lorem ipsum dolor
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo in cupiditate atque deleniti
-                        sint
-                        reprehenderit eaque magnam porro at labore quasi exercitationem odio, neque, consequatur.</a>
-                </article>
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="multimedia/index1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/index2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="multimedia/index3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
-                <article class="main__section2--article2">
-                    <h3>Dalwhinnie, la destilería más fría de Escocia</h3>
-                    <img src="./multimedia/dalwhinnie-distillery.jpg" alt="destilería Dalwhinnie "
-                        title="destilería Dalwhinnie" width="300px" height="180px">
-                    <a href="/pages/blog.html"> Lorem ipsumdolor
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit illo in cupiditate atque deleniti
-                        sint
-                        reprehenderit eaque magnam porro at labore quasi exercitationem odio.</a>
-                </article>
-
-            </section>
-        </div>
-        <div class="footer">
+            </main>
+           <!-- Acá comienza el footer -->
             <footer class="footer">
                 <div class="footer__redes">
                     <a href="https://www.instagram.com/" target="_blank">
@@ -164,15 +203,10 @@
                     <p>© 2010-2022, Whisky®. Todos los derechos reservados</p>
                 </div>
 
-
-
             </footer>
-        </div>
 
-        </main>
-        <!-- Acá comienza el footer -->
-
-    </div>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 
 </html>
