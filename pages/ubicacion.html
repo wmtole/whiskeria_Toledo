@@ -15,19 +15,42 @@
 
 <body>
     <!-- Logo + header -->
-    <header class="header">
-        <a href="index.html">
-            <img src="../multimedia/glass.png" alt="vaso de whisky" width="50px" height="45px" title="Logo">
-        </a>
-
-        <nav class="header__nav__form">
-            <ul class="header__form">
-                <li> <a href="../index.html" target="_self">Inicio</a></li>
-                <li> <a href="./historia.html" target="_blank">Historia</a></li>
-                <li> <a href="./catas.html" target="_blank">Catas</a></li>
-                <li> <a href="./ubicacion.html" target="_blank">Ubicación</a></li>
-                <li> <a href="./contacto.html" target="_blank">Contacto</a></li>
-            </ul>
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(197, 186, 186)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../multimedia/glass.png" alt="" height="50px" width="50px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./catas.html">Catas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./historia.html">Historía</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" style="background-color:rgb(228, 215, 215)" type="search"
+                            placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <!-- Acá comienza el contenido principal de la pagina -->
@@ -39,12 +62,12 @@
                 <p>. SEDE CENTRAL DEL WHISKY EN CABA </p>
             </div>
             <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6953886162228!2d-58.4506218!3d-34.5865734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5efef247ea5%3A0xc87b5e8816cca559!2sGuevara%20421%2C%20C1427BRI%20CABA!5e0!3m2!1ses!2sar!4v1655679086441!5m2!1ses!2sar"
-            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6953886162228!2d-58.4506218!3d-34.5865734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5efef247ea5%3A0xc87b5e8816cca559!2sGuevara%20421%2C%20C1427BRI%20CABA!5e0!3m2!1ses!2sar!4v1655679086441!5m2!1ses!2sar"
+                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-        
-    </main> 
+
+    </main>
     <!-- Acá comienza el footer -->
     <footer class="footer">
         <div class="footer__redes">
@@ -102,7 +125,9 @@
 
 </html>
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

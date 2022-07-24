@@ -3,64 +3,10 @@
     padding: 0;
 }
 
-/* 
------------------------------------CSS de Index----------------------------------- */
-
-
-.header {
-    background-color: rgb(165, 165, 165);
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    height: 9vh;
-
-
-}
-
-.header__buscador {
-    display: flex;
-    justify-content: space-around
-}
-
-.header__buscador img {
-    padding-right: 5px;
-}
-
-
-
-.header img {
-    padding-left: 10px;
-}
-
-.header__form {
-    display: flex;
-    justify-content: space-around;
-    width: 500px;
-
-}
-
-.header__form li {
-    list-style: circle;
-    font-size: 20px;
-    justify-content: space-around;
-    padding-right: 20px;
-}
-
-.header__form li a {
-    text-decoration: none;
-}
-
-.header__form li a:hover {
-    color: black;
-    transition: 0.5s;
-}
-
-
 
 .main {
-    background-color: rgb(250, 249, 237);
-height: 400vh;
+    background-color: rgb(241, 240, 225);
+    height: 470vh;
 
 }
 
@@ -121,6 +67,10 @@ height: 400vh;
     padding-top: 32px;
     font-size: 25px;
     font-weight: bold;
+    animation-name: efecto-main__p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
 }
 
 .main__section {
@@ -191,7 +141,7 @@ height: 400vh;
 
 .card {
     background-color: rgb(253, 235, 214);
-    
+
 }
 
 #carouselExampleIndicators {
@@ -274,26 +224,110 @@ height: 400vh;
 
 }
 
+@keyframes efecto-main__p {
+    0% {
+        padding-right: 0px;
+
+    }
+
+    25% {
+        padding-right: 50px;
+
+    }
+
+    50% {
+        padding-left: 25px;
+    }
+
+    75% {
+        padding-left: 50px;
+    }
+
+    100% {
+        padding-left: 25px;
+    }
+}
+
+
+.card-group {
+    gap: 10px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.card {
+    background-color: rgb(253, 235, 214);
+}
+
+
+
+#boton-galeria {
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    animation-name: boton-galeria;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boton-galeria {
+    0% {
+        margin-left: 100px;
+        margin-right: 100px;
+
+    }
+
+    25% {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    50% {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    75% {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    100% {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+}
+
+
 
 /* ------------------------------------ CSS de contacto---------------------------- */
 
-.container__contacto {  display: grid;
+.container__contacto {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: .1fr .1fr .1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
-      "header header"
-      "contacto contacto"
-      "footer footer";
-  }
-  
-  .header { grid-area: header; }
-  
-  .contacto { grid-area: contacto; }
-  
-  .footer { grid-area: footer; }
-  
+        "header header"
+        "contacto contacto"
+        "footer footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.contacto {
+    grid-area: contacto;
+}
+
+.footer {
+    grid-area: footer;
+}
+
 
 
 .main__contacto {
@@ -342,7 +376,7 @@ height: 400vh;
     padding: 30px;
 }
 
-/* ----------------------------------------------------CSS DE UBICACION----------------------------------------------- */
+/* -------------------------------------------CSS DE UBICACION-------------------------------------- */
 
 .main__ubicacion {
     background-color: rgb(189, 180, 180);
@@ -378,7 +412,7 @@ height: 400vh;
     margin-right: 120px;
     padding-left: 200px;
     width: 80%;
-    
+
 }
 
 .main__contacto__section--ubicacion {
@@ -410,7 +444,7 @@ height: 400vh;
 
 .main__historia {
     background-color: rgb(189, 180, 180);
-    height: 360vh;
+    height: 500vh;
     background-image: linear-gradient(0deg,
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("./multimedia/historia-del-whisky-portada-articulo.jpg");
@@ -443,9 +477,16 @@ height: 400vh;
     margin-right: 10px;
 }
 
+.main__historia__section1--article4 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .main__historia__section1--article1,
 .main__historia__section1--article2,
-.main__historia__section1--article3 {
+.main__historia__section1--article3,
+.main__historia__section1--article4 {
     padding-top: 20px;
     padding-bottom: 20px;
     color: rgb(218, 207, 207);
@@ -453,7 +494,8 @@ height: 400vh;
 
 .main__historia__section1--article1 h3,
 .main__historia__section1--article2 h3,
-.main__historia__section1--article3 h3 {
+.main__historia__section1--article3 h3,
+.main__historia__section1--article4 h3 {
     text-align: center;
     padding-bottom: 20px;
     color: white;
@@ -475,6 +517,10 @@ height: 400vh;
     padding: 15px;
 }
 
+.main__historia__section1--article4 img {
+    float: right;
+    padding: 15px;
+}
 
 .main__historia--h2 {
     text-align: center;
@@ -522,8 +568,8 @@ height: 400vh;
 /* ---------------------------------------------CSS DE CATAS -------------------------------------------- */
 
 .main__cata {
-    background-color: rgb(250, 249, 237);
-    height: 150vh;
+    background-color: rgb(241, 240, 225);
+    height: 180vh;
 }
 
 .main__cata h1 {
@@ -557,7 +603,8 @@ height: 400vh;
     margin-top: 5px;
     font-weight: bold;
     font-size: 20px;
-padding: 20px; }
+    padding: 20px;
+}
 
 .main__cata ul {
 
@@ -644,94 +691,94 @@ padding: 20px; }
 }
 
 
-    @media screen and (max-width: 768px) {
-        .header {
-            flex-direction: column;
-            height: 25vh;
-            padding-top: 10px;
-        }
-    
-        .header__form {
-            padding-bottom: 20px;
-        }
-    
-        .main__section {
-            flex-direction: column;
-        }
-    
-        .main__section--article,
-        .main__section--aside {
-            width: 90%;
-            margin: 10px;
-        }
-    
-        .main__section2 {
-            flex-direction: column;
-            height: 80vh;
-        }
-    
-        .main__section2--article1,
-        .main__section2--article2,
-        .main__section2--aside {
-            width: 90%;
-            margin: 10px;
-        }
-
-        .main__contacto__section--ubicacion {
-            width: 5%;
-            padding-bottom: 40px;
-            margin: 0;
-            padding: 0;
-            padding: 50px;
-            padding-left: 300px;
-        }
-
-        .main__contacto__section--ubicacion--div {
-            flex-direction: column;
-            padding-bottom: 40px;
-            padding-right: 40px;
-        }
-
-        .main__contacto__section--ubicacion--div p {
-            padding-bottom: 20px;
-        }
-
-        .main__contacto__section--ubicacion iframe {
-            width:80vw;
-            height: 60vh;
-        }
-
-        .footer {
-            flex-direction: column;
-            height: 50vh;
-            width: 100%;
-        }
-    
-        .footer__redes {
-            padding-left: 250px;
-        }
-    
-        .footer__redes img {
-            padding: 10px;
-    
-        }
-    
-        .footer__formulario {
-            padding-left: 150px;
-        }
-    
-        .footer__enlaces {
-            flex-direction: row;
-            padding-left: 180px;
-            width: 40%;
-        }
-    
-        .footer__copyright {
-            padding-left: 180px;
-            padding-bottom: 20px;
-        }
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: 25vh;
+        padding-top: 10px;
     }
-    
+
+    .header__form {
+        padding-bottom: 20px;
+    }
+
+    .main__section {
+        flex-direction: column;
+    }
+
+    .main__section--article,
+    .main__section--aside {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main__section2 {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .main__section2--article1,
+    .main__section2--article2,
+    .main__section2--aside {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .main__contacto__section--ubicacion {
+        width: 5%;
+        padding-bottom: 40px;
+        margin: 0;
+        padding: 0;
+        padding: 50px;
+        padding-left: 300px;
+    }
+
+    .main__contacto__section--ubicacion--div {
+        flex-direction: column;
+        padding-bottom: 40px;
+        padding-right: 40px;
+    }
+
+    .main__contacto__section--ubicacion--div p {
+        padding-bottom: 20px;
+    }
+
+    .main__contacto__section--ubicacion iframe {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer__redes {
+        padding-left: 250px;
+    }
+
+    .footer__redes img {
+        padding: 10px;
+
+    }
+
+    .footer__formulario {
+        padding-left: 150px;
+    }
+
+    .footer__enlaces {
+        flex-direction: row;
+        padding-left: 180px;
+        width: 40%;
+    }
+
+    .footer__copyright {
+        padding-left: 180px;
+        padding-bottom: 20px;
+    }
+}
+
 
 @media screen and (max-width:480px) {
     .header {
@@ -827,7 +874,7 @@ padding: 20px; }
     }
 
     .main__contacto__section--ubicacion iframe {
-        width:70vw;
+        width: 70vw;
         height: 50vh;
     }
 
@@ -872,4 +919,4 @@ padding: 20px; }
         height: 5vh;
     }
 
-    }
+}
