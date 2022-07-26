@@ -1,0 +1,669 @@
+* {
+    margin: 0;
+    padding: 0; }
+  
+  .main {
+    background-color: #f1f0e1;
+    height: 470vh; }
+  
+  .main__div {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/scotch-whisky-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around; }
+  
+  .main__div p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; }
+  
+  .main__div button {
+    color: white;
+    background-color: #cb1c1c;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 2px, 2px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; }
+  
+  .main__div button:hover {
+    background-color: #cf451a;
+    transition: 0.5s;
+    cursor: pointer; }
+  
+  .main__div h1 {
+    color: #f1e4e4;
+    text-align: center; }
+  
+  .main__p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    font-size: 25px;
+    font-weight: bold;
+    animation-name: efecto-main__p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+  
+  .main__section {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  
+  .main__section--article {
+    padding: 15px;
+    width: 50%;
+    font-size: 20px;
+    background-color: #fdebd6;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 30%; }
+  
+  .main__section--article--h2 {
+    text-align: center;
+    padding-bottom: 20px; }
+  
+  .main__section--article img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px; }
+  
+  .main__section--aside img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px; }
+  
+  .main__section--aside {
+    width: 50%;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #fdebd6;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 30%; }
+  
+  .main__section--aside--h3 {
+    text-align: center;
+    padding-bottom: 20px; }
+  
+  .main__section--aside p {
+    padding-bottom: 30px; }
+  
+  .card-group {
+    padding: 20px; }
+  
+  .card {
+    background-color: #fdebd6; }
+  
+  #carouselExampleIndicators {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  
+  .footer {
+    background-color: #0c4408;
+    display: flex;
+    justify-content: space-around;
+    height: 25vh; }
+  
+  .footer__redes {
+    padding: 25px;
+    padding-right: 20px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px; }
+  
+  .footer__redes img {
+    padding: 7px; }
+  
+  .footer__formulario {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 10px; }
+  
+  .footer__formulario--h3 {
+    color: #eeeaea;
+    font-size: 14px; }
+  
+  .footer__formulario--input label {
+    color: white;
+    padding-left: 30px; }
+  
+  .footer__formulario--input--email {
+    background-color: #eeeaea; }
+  
+  .footer__enlaces {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    width: 300px;
+    padding-top: 10px; }
+  
+  .footer__enlaces li {
+    list-style: circle;
+    display: inline;
+    padding: 2px;
+    justify-content: flex-end; }
+  
+  .footer__enlaces li a {
+    text-decoration: none;
+    color: white; }
+  
+  .footer__copyright {
+    color: white;
+    padding-top: 70px;
+    margin-right: 40px;
+    width: 390px; }
+  
+  @keyframes efecto-main__p {
+    0% {
+      padding-right: 0px; }
+    25% {
+      padding-right: 50px; }
+    50% {
+      padding-left: 25px; }
+    75% {
+      padding-left: 50px; }
+    100% {
+      padding-left: 25px; } }
+  
+  .card-group {
+    gap: 10px;
+    padding: 20px;
+    border-radius: 40px; }
+  
+  .card {
+    background-color: #fdebd6; }
+  
+  #boton-galeria {
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    animation-name: boton-galeria;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite; }
+  
+  @keyframes boton-galeria {
+    0% {
+      margin-left: 100px;
+      margin-right: 100px; }
+    25% {
+      margin-left: 200px;
+      margin-right: 200px; }
+    50% {
+      margin-left: 300px;
+      margin-right: 300px; }
+    75% {
+      margin-left: 200px;
+      margin-right: 200px; }
+    100% {
+      margin-left: 100px;
+      margin-right: 100px; } }
+  
+  /* ------------------------------------ CSS de contacto---------------------------- */
+  .container__contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: .1fr .1fr .1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas: "header header"
+   "contacto contacto"
+   "footer footer"; }
+  
+  .header {
+    grid-area: header; }
+  
+  .contacto {
+    grid-area: contacto; }
+  
+  .footer {
+    grid-area: footer; }
+  
+  .main__contacto {
+    background-color: #bdb4b4;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/contactoimagen.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh; }
+  
+  .main__contacto h1 {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding-top: 30px; }
+  
+  .main__contacto__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding-left: 30px;
+    align-items: center; }
+  
+  .main__contacto__section img {
+    margin-left: 110px;
+    margin-top: 70px; }
+  
+  .main__contacto--form {
+    padding-left: 100px;
+    padding-top: 20px; }
+  
+  .submit-reset {
+    padding: 30px; }
+  
+  /* -------------------------------------------CSS DE UBICACION-------------------------------------- */
+  .main__ubicacion {
+    background-color: #bdb4b4;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/icono-ubicacion-color-plano-mapa-papel_52465-148.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 150vh; }
+  
+  .main__ubicacion h1 {
+    text-align: center;
+    padding-top: 40px; }
+  
+  .main__contacto__section--ubicacion {
+    width: 50%;
+    padding-top: 50px;
+    margin-bottom: 200px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column; }
+  
+  .main__contacto__section--ubicacion--div {
+    display: flex;
+    justify-content: center;
+    margin-right: 120px;
+    padding-left: 200px;
+    width: 80%; }
+  
+  .main__contacto__section--ubicacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 100px; }
+  
+  .main__contacto__section--ubicacion iframe {
+    padding-left: 50px; }
+  
+  .main__contacto__section--ubicacion--div p {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px; }
+  
+  .main__contacto__section--ubicacion--div img {
+    margin-bottom: 30px; }
+  
+  /* --------------------------------------- CSS DE HISTORIA------------------------------------------------- */
+  .main__historia {
+    background-color: #bdb4b4;
+    height: 500vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/historia-del-whisky-portada-articulo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover; }
+  
+  .main__historia h1 {
+    color: white; }
+  
+  .main__historia__section1--article1 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  
+  .main__historia__section1--article2 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  
+  .main__historia__section1--article3 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  
+  .main__historia__section1--article4 {
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px; }
+  
+  .main__historia__section1--article1,
+  .main__historia__section1--article2,
+  .main__historia__section1--article3,
+  .main__historia__section1--article4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #dacfcf; }
+  
+  .main__historia__section1--article1 h3,
+  .main__historia__section1--article2 h3,
+  .main__historia__section1--article3 h3,
+  .main__historia__section1--article4 h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white; }
+  
+  .main__historia__section1--article1 img {
+    float: left;
+    padding: 15px; }
+  
+  .main__historia__section1--article2 img {
+    float: right;
+    padding: 15px; }
+  
+  .main__historia__section1--article3 img {
+    float: left;
+    padding: 15px; }
+  
+  .main__historia__section1--article4 img {
+    float: right;
+    padding: 15px; }
+  
+  .main__historia--h2 {
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-size: 30px; }
+  
+  .main__historia__section2--fila1 {
+    display: flex; }
+  
+  .main__historia__section2--fila2 {
+    display: flex; }
+  
+  .main__historia__section2--fila1--article1,
+  .main__historia__section2--fila1--article2,
+  .main__historia__section2--fila2--article3,
+  .main__historia__section2--fila2--article4 {
+    width: 50%; }
+  
+  .main__historia__section2--fila1--article1 iframe,
+  .main__historia__section2--fila1--article2 iframe,
+  .main__historia__section2--fila2--article3 iframe,
+  .main__historia__section2--fila2--article4 iframe {
+    padding: 20px; }
+  
+  .main__historia__section2--fila1--article1 {
+    margin-right: 20px;
+    margin-left: 20px; }
+  
+  .main__historia__section2--fila2--article3 {
+    margin-right: 20px;
+    margin-left: 20px; }
+  
+  /* ---------------------------------------------CSS DE CATAS -------------------------------------------- */
+  .main__cata {
+    background-color: #f1f0e1;
+    height: 180vh; }
+  
+  .main__cata h1 {
+    text-align: center;
+    margin-top: 15px; }
+  
+  .main__cata h2 {
+    text-align: center;
+    padding-top: 40px; }
+  
+  .main__cata__section1 {
+    display: flex;
+    padding: 20px; }
+  
+  .main__cata h3 {
+    text-align: justify;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px; }
+  
+  .main__cata h3 {
+    text-align: justify;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px; }
+  
+  .main__cata ul {
+    padding-left: 120px; }
+  
+  .main__cata__section2 {
+    display: flex;
+    padding: 20px; }
+  
+  .main__cata__section1--article1,
+  .main__cata__section1--article2,
+  .main__cata__section1--article3 {
+    width: 33.3%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fdebd6;
+    padding-bottom: 10px; }
+  
+  .main__cata__section2--article4,
+  .main__cata__section2--article5 {
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fdebd6;
+    padding-bottom: 10px; }
+  
+  .main__cata__section1--article1 {
+    margin-right: 20px;
+    margin-left: 50px; }
+  
+  .main__cata__section1--article2 {
+    margin-right: 20px; }
+  
+  .main__cata__section1--article3 {
+    margin-right: 50px; }
+  
+  .main__cata__section2--article4 {
+    margin-right: 20px;
+    margin-left: 200px; }
+  
+  .main__cata__section2--article5 {
+    margin-right: 200px; }
+  
+  .main__cata__div {
+    padding-top: 60px; }
+  
+  .main__cata__section1--article1 h3 {
+    color: red; }
+  
+  .main__cata__section1--article2 h3 {
+    color: blue; }
+  
+  .main__cata__section1--article3 h3 {
+    color: green; }
+  
+  .main__cata__section2--article4 h3 {
+    color: blueviolet; }
+  
+  .main__cata__section2--article5 h3 {
+    color: brown; }
+  
+  .main__cata__section1--article1--div {
+    display: flex; }
+  
+  .main__cata__section1--article1--div img {
+    margin-left: 100px;
+    padding: 10px; }
+  
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: 25vh;
+      padding-top: 10px; }
+    .header__form {
+      padding-bottom: 20px; }
+    .main__section {
+      flex-direction: column; }
+    .main__section--article,
+    .main__section--aside {
+      width: 90%;
+      margin: 10px; }
+    .main__section2 {
+      flex-direction: column;
+      height: 80vh; }
+    .main__section2--article1,
+    .main__section2--article2,
+    .main__section2--aside {
+      width: 90%;
+      margin: 10px; }
+    .main__contacto__section--ubicacion {
+      width: 5%;
+      padding-bottom: 40px;
+      margin: 0;
+      padding: 0;
+      padding: 50px;
+      padding-left: 300px; }
+    .main__contacto__section--ubicacion--div {
+      flex-direction: column;
+      padding-bottom: 40px;
+      padding-right: 40px; }
+    .main__contacto__section--ubicacion--div p {
+      padding-bottom: 20px; }
+    .main__contacto__section--ubicacion iframe {
+      width: 80vw;
+      height: 60vh; }
+    .footer {
+      flex-direction: column;
+      height: 50vh;
+      width: 100%; }
+    .footer__redes {
+      padding-left: 250px; }
+    .footer__redes img {
+      padding: 10px; }
+    .footer__formulario {
+      padding-left: 150px; }
+    .footer__enlaces {
+      flex-direction: row;
+      padding-left: 180px;
+      width: 40%; }
+    .footer__copyright {
+      padding-left: 180px;
+      padding-bottom: 20px; } }
+  
+  @media screen and (max-width: 480px) {
+    .header {
+      flex-direction: column;
+      height: 38vh;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    .header__buscador {
+      padding: 20px; }
+    .header__form {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+    .header__form li {
+      font-size: 20px;
+      padding: 2px; }
+    .main__p {
+      padding: 40px; }
+    .main__section {
+      flex-direction: column;
+      width: 80%;
+      padding: 20px; }
+    .main__section--article img {
+      padding: 20px;
+      padding-left: 40px;
+      width: 280px;
+      height: 200px; }
+    .main__section--article,
+    .main__section--aside {
+      margin-top: 20px;
+      width: 90%; }
+    .main__section--aside iframe {
+      padding-left: 80px;
+      width: 300px; }
+    .main__section2 {
+      flex-direction: column;
+      height: 100%;
+      padding: 5px; }
+    .main__section2--article1 {
+      width: 90%; }
+    .main__section2--article2 {
+      width: 90%; }
+    .main__section2--aside {
+      width: 90%; }
+    .main__section2--article1,
+    .main__section2--article2,
+    .main__section2--aside {
+      margin-top: 10px; }
+    .main__contacto__section--ubicacion {
+      margin: 0;
+      padding: 0;
+      padding-left: 200px;
+      padding-top: 40px; }
+    .main__contacto__section--ubicacion--div {
+      flex-direction: column;
+      padding-bottom: 40px;
+      padding-right: 40px; }
+    .main__contacto__section--ubicacion--div p {
+      padding-bottom: 20px; }
+    .main__contacto__section--ubicacion iframe {
+      width: 70vw;
+      height: 50vh; }
+    .footer {
+      flex-direction: column;
+      height: 80vh;
+      width: 100%; }
+    .footer__redes {
+      justify-content: center;
+      padding-left: 140px;
+      height: 20vh;
+      padding-top: 80px; }
+    .footer__enlaces {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 10vw;
+      padding-left: 200px;
+      padding-top: 20px;
+      height: 25%; }
+    .footer__formulario--input {
+      padding-left: 40px;
+      padding-top: 20px; }
+    .footer__enlaces li {
+      padding: 5px;
+      font-size: 20px;
+      align-items: center;
+      padding: 10px; }
+    .footer__copyright {
+      text-align: center;
+      padding-bottom: 60px;
+      height: 5vh; } }
+  
