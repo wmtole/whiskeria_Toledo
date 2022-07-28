@@ -5,110 +5,99 @@
 .main {
   background-color: #f1f0e1;
   height: 470vh; }
-
-.main__div {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/scotch-whisky-banner.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  height: 80vh;
-  text-align: center;
-  align-items: center;
-  justify-content: space-around; }
-
-.main__div p {
-  font-size: 30px;
-  font-weight: bold;
-  color: white; }
-
-.main__div button {
-  color: white;
-  background-color: #cb1c1c;
-  border: 1px solid black;
-  border-radius: 10px;
-  font-size: 25px;
-  padding: 10px;
-  font-weight: bold;
-  box-shadow: 2px, 2px black;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px; }
-
-.main__div button:hover {
-  background-color: #cf451a;
-  transition: 0.5s;
-  cursor: pointer; }
-
-.main__div h1 {
-  color: #f1e4e4;
-  text-align: center; }
-
-.main__p {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 32px;
-  font-size: 25px;
-  font-weight: bold;
-  animation-name: efecto-main__p;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-delay: 1s; }
-
-.main__section {
-  display: flex;
-  padding-top: 30px;
-  padding-bottom: 20px; }
-
-.main__section--article {
-  padding: 15px;
-  width: 50%;
-  font-size: 20px;
-  background-color: #fdebd6;
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-right: 5px;
-  margin-left: 10px;
-  height: 30%; }
-
-.main__section--article--h2 {
-  text-align: center;
-  padding-bottom: 20px; }
-
-.main__section--article img {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.main__section--aside img {
-  float: right;
-  margin-left: 10px;
-  margin-bottom: 10px; }
-
-.main__section--aside {
-  width: 50%;
-  display: inline-block;
-  justify-content: space-around;
-  padding: 15px;
-  font-size: 20px;
-  background-color: #fdebd6;
-  border: 2px solid black;
-  border-radius: 10px;
-  margin-left: 5px;
-  margin-right: 10px;
-  height: 30%; }
-
-.main__section--aside--h3 {
-  text-align: center;
-  padding-bottom: 20px; }
-
-.main__section--aside p {
-  padding-bottom: 30px; }
+  .main__div {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/scotch-whisky-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around; }
+  .main__div p {
+    font-size: 30px;
+    font-weight: bold;
+    color: white; }
+  .main__div button {
+    color: white;
+    background-color: #cb1c1c;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 2px, 2px black;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px; }
+  .main__div button:hover {
+    background-color: #cf451a;
+    transition: 0.5s;
+    cursor: pointer; }
+  .main__div h1 {
+    color: #f1e4e4;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold; }
+  .main__p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    font-size: 25px;
+    font-weight: bold;
+    animation-name: efecto-main__p;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s; }
+  .main__section {
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 20px; }
+  .main__section--article {
+    padding: 15px;
+    width: 50%;
+    font-size: 20px;
+    background-color: #fdebd6;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+    height: 30%; }
+  .main__section--article--h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 35px; }
+  .main__section--article img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px; }
+  .main__section--aside img {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px; }
+  .main__section--aside {
+    width: 50%;
+    display: inline-block;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+    background-color: #fdebd6;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    height: 30%; }
+  .main__section--aside--h3 {
+    text-align: center;
+    padding-bottom: 20px; }
+  .main__section--aside p {
+    padding-bottom: 30px; }
 
 .card-group {
   padding: 20px; }
@@ -121,63 +110,6 @@
   padding-left: 100px;
   padding-top: 50px;
   padding-bottom: 50px; }
-
-.footer {
-  background-color: #0c4408;
-  display: flex;
-  justify-content: space-around;
-  height: 25vh; }
-
-.footer__redes {
-  padding: 25px;
-  padding-right: 20px;
-  padding-left: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  width: 150px; }
-
-.footer__redes img {
-  padding: 7px; }
-
-.footer__formulario {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  margin-left: 10px; }
-
-.footer__formulario--h3 {
-  color: #eeeaea;
-  font-size: 14px; }
-
-.footer__formulario--input label {
-  color: white;
-  padding-left: 30px; }
-
-.footer__formulario--input--email {
-  background-color: #eeeaea; }
-
-.footer__enlaces {
-  display: flex;
-  flex-direction: row;
-  padding-left: 50px;
-  width: 300px;
-  padding-top: 10px; }
-
-.footer__enlaces li {
-  list-style: circle;
-  display: inline;
-  padding: 2px;
-  justify-content: flex-end; }
-
-.footer__enlaces li a {
-  text-decoration: none;
-  color: white; }
-
-.footer__copyright {
-  color: white;
-  padding-top: 70px;
-  margin-right: 40px;
-  width: 390px; }
 
 @keyframes efecto-main__p {
   0% {
@@ -245,7 +177,7 @@
 
 .main__contacto {
   background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/contactoimagen.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -256,7 +188,9 @@
   font-weight: bold;
   color: white;
   text-align: center;
-  padding-top: 30px; }
+  padding-top: 30px;
+  font-size: 45px;
+  font-weight: bold; }
 
 .main__contacto__section {
   display: flex;
@@ -280,7 +214,7 @@
 /* -------------------------------------------CSS DE UBICACION-------------------------------------- */
 .main__ubicacion {
   background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/icono-ubicacion-color-plano-mapa-papel_52465-148.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/ubicacionimagen.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -329,7 +263,7 @@
 .main__historia {
   background-color: #bdb4b4;
   height: 500vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./multimedia/historia-del-whisky-portada-articulo.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/historia-del-whisky-portada-articulo.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -372,7 +306,8 @@
 .main__historia__section1--article4 h3 {
   text-align: center;
   padding-bottom: 20px;
-  color: white; }
+  color: white;
+  font-size: 30px; }
 
 .main__historia__section1--article1 img {
   float: left;
@@ -635,6 +570,7 @@
   .main__contacto__section--ubicacion iframe {
     width: 70vw;
     height: 50vh; }
+  /* -----------------------------------------FOOTER DE TODAS LAS PAGINAS------------------------------- */
   .footer {
     flex-direction: column;
     height: 80vh;
@@ -664,3 +600,60 @@
     text-align: center;
     padding-bottom: 60px;
     height: 5vh; } }
+
+.footer {
+  background-color: #0c4408;
+  display: flex;
+  justify-content: space-around;
+  height: 25vh; }
+
+.footer__redes {
+  padding: 25px;
+  padding-right: 20px;
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 150px; }
+
+.footer__redes img {
+  padding: 7px; }
+
+.footer__formulario {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-left: 10px; }
+
+.footer__formulario--h3 {
+  color: #eeeaea;
+  font-size: 14px; }
+
+.footer__formulario--input label {
+  color: white;
+  padding-left: 30px; }
+
+.footer__formulario--input--email {
+  background-color: #eeeaea; }
+
+.footer__enlaces {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  width: 300px;
+  padding-top: 10px; }
+
+.footer__enlaces li {
+  list-style: circle;
+  display: inline;
+  padding: 2px;
+  justify-content: flex-end; }
+
+.footer__enlaces li a {
+  text-decoration: none;
+  color: white; }
+
+.footer__copyright {
+  color: white;
+  padding-top: 70px;
+  margin-right: 40px;
+  width: 390px; }
