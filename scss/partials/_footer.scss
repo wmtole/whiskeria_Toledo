@@ -1,0 +1,69 @@
+.footer {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__redes {
+  padding: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer__redes img {
+  padding: 7px;
+}
+
+.footer__formulario {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-left: 40px;
+}
+
+.footer__formulario--h3 {
+  color: rgb(238, 234, 234);
+}
+
+.footer__formulario--input label {
+  color: white;
+  padding-left: 130px;
+}
+
+.footer__formulario--input--email {
+  background-color: rgb(238, 234, 234);
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  outline: none;
+}
+
+.footer__enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20vw;
+  padding-top: 10px;
+}
+
+.footer__enlaces li {
+  list-style: circle;
+  display: inline;
+  padding: 2px;
+  justify-content: flex-end;
+}
+
+.footer__enlaces li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__copyright {
+  color: white;
+  padding-top: 70px;
+  display: block;
+  padding-left: 100px;
+}

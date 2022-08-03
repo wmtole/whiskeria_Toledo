@@ -157,109 +157,101 @@
     margin-left: 100px;
     margin-right: 100px; } }
 
-/* ------------------------------------ CSS de contacto---------------------------- */
-.container__contacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: .1fr .1fr .1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "header header" "contacto contacto" "footer footer"; }
+.main__cata {
+  background-color: #f1f0e1;
+  height: 180vh; }
 
-.header {
-  grid-area: header; }
-
-.contacto {
-  grid-area: contacto; }
-
-.footer {
-  grid-area: footer; }
-
-.main__contacto {
-  background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 90vh; }
-
-.main__contacto h1 {
-  font-weight: bold;
-  color: white;
+.main__cata h1 {
   text-align: center;
-  padding-top: 30px;
-  font-size: 45px;
-  font-weight: bold; }
+  margin-top: 15px; }
 
-.main__contacto__section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 90%;
-  padding-left: 30px;
-  align-items: center; }
-
-.main__contacto__section img {
-  margin-left: 110px;
-  margin-top: 70px; }
-
-.main__contacto--form {
-  padding-left: 100px;
-  padding-top: 20px; }
-
-.submit-reset {
-  padding: 30px; }
-
-/* -------------------------------------------CSS DE UBICACION-------------------------------------- */
-.main__ubicacion {
-  background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/ubicacionimagen.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  height: 150vh; }
-
-.main__ubicacion h1 {
+.main__cata h2 {
   text-align: center;
   padding-top: 40px; }
 
-.main__contacto__section--ubicacion {
-  width: 50%;
-  padding-top: 50px;
-  margin-bottom: 200px;
-  padding-right: 100px;
+.main__cata__section1 {
   display: flex;
-  flex-direction: column; }
+  padding: 20px; }
 
-.main__contacto__section--ubicacion--div {
-  display: flex;
-  justify-content: center;
-  margin-right: 120px;
-  padding-left: 200px;
-  width: 80%; }
-
-.main__contacto__section--ubicacion {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 350px;
-  padding-top: 100px; }
-
-.main__contacto__section--ubicacion iframe {
-  padding-left: 50px; }
-
-.main__contacto__section--ubicacion--div p {
+.main__cata h3 {
+  text-align: justify;
+  margin-top: 5px;
   font-weight: bold;
-  margin-left: 10px;
-  margin-top: 10px; }
+  font-size: 20px; }
 
-.main__contacto__section--ubicacion--div img {
-  margin-bottom: 30px; }
+.main__cata h3 {
+  text-align: justify;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px; }
 
-/* --------------------------------------- CSS DE HISTORIA------------------------------------------------- */
+.main__cata ul {
+  padding-left: 120px; }
+
+.main__cata__section2 {
+  display: flex;
+  padding: 20px; }
+
+.main__cata__section1--article1,
+.main__cata__section1--article2,
+.main__cata__section1--article3 {
+  width: 33.3%;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #fdebd6;
+  padding-bottom: 10px; }
+
+.main__cata__section2--article4,
+.main__cata__section2--article5 {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #fdebd6;
+  padding-bottom: 10px; }
+
+.main__cata__section1--article1 {
+  margin-right: 20px;
+  margin-left: 50px; }
+
+.main__cata__section1--article2 {
+  margin-right: 20px; }
+
+.main__cata__section1--article3 {
+  margin-right: 50px; }
+
+.main__cata__section2--article4 {
+  margin-right: 20px;
+  margin-left: 200px; }
+
+.main__cata__section2--article5 {
+  margin-right: 200px; }
+
+.main__cata__div {
+  padding-top: 60px; }
+
+.main__cata__section1--article1 h3 {
+  color: red; }
+
+.main__cata__section1--article2 h3 {
+  color: blue; }
+
+.main__cata__section1--article3 h3 {
+  color: green; }
+
+.main__cata__section2--article4 h3 {
+  color: blueviolet; }
+
+.main__cata__section2--article5 h3 {
+  color: brown; }
+
+.main__cata__section1--article1--div {
+  display: flex; }
+
+.main__cata__section1--article1--div img {
+  margin-left: 100px;
+  padding: 10px; }
+
 .main__historia {
   background-color: #bdb4b4;
   height: 500vh;
@@ -358,101 +350,164 @@
   margin-right: 20px;
   margin-left: 20px; }
 
-/* ---------------------------------------------CSS DE CATAS -------------------------------------------- */
-.main__cata {
-  background-color: #f1f0e1;
-  height: 180vh; }
+.main__ubicacion {
+  background-color: #bdb4b4;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/ubicacionimagen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150vh; }
 
-.main__cata h1 {
-  text-align: center;
-  margin-top: 15px; }
-
-.main__cata h2 {
+.main__ubicacion h1 {
   text-align: center;
   padding-top: 40px; }
 
-.main__cata__section1 {
-  display: flex;
-  padding: 20px; }
-
-.main__cata h3 {
-  text-align: justify;
-  margin-top: 5px;
-  font-weight: bold;
-  font-size: 20px; }
-
-.main__cata h3 {
-  text-align: justify;
-  margin-top: 5px;
-  font-weight: bold;
-  font-size: 20px;
-  padding: 20px; }
-
-.main__cata ul {
-  padding-left: 120px; }
-
-.main__cata__section2 {
-  display: flex;
-  padding: 20px; }
-
-.main__cata__section1--article1,
-.main__cata__section1--article2,
-.main__cata__section1--article3 {
-  width: 33.3%;
-  border: 1px solid black;
-  border-radius: 30px;
-  background-color: #fdebd6;
-  padding-bottom: 10px; }
-
-.main__cata__section2--article4,
-.main__cata__section2--article5 {
+.main__contacto__section--ubicacion {
   width: 50%;
-  border: 1px solid black;
-  border-radius: 30px;
-  background-color: #fdebd6;
-  padding-bottom: 10px; }
+  padding-top: 50px;
+  margin-bottom: 200px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column; }
 
-.main__cata__section1--article1 {
-  margin-right: 20px;
-  margin-left: 50px; }
+.main__contacto__section--ubicacion--div {
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+  padding-left: 200px;
+  width: 80%; }
 
-.main__cata__section1--article2 {
-  margin-right: 20px; }
+.main__contacto__section--ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+  padding-top: 100px; }
 
-.main__cata__section1--article3 {
-  margin-right: 50px; }
+.main__contacto__section--ubicacion iframe {
+  padding-left: 50px; }
 
-.main__cata__section2--article4 {
-  margin-right: 20px;
-  margin-left: 200px; }
+.main__contacto__section--ubicacion--div p {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px; }
 
-.main__cata__section2--article5 {
-  margin-right: 200px; }
+.main__contacto__section--ubicacion--div img {
+  margin-bottom: 30px; }
 
-.main__cata__div {
-  padding-top: 60px; }
+.container__contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: .1fr .1fr .1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "header header" "contacto contacto" "footer footer"; }
 
-.main__cata__section1--article1 h3 {
-  color: red; }
+.header {
+  grid-area: header; }
 
-.main__cata__section1--article2 h3 {
-  color: blue; }
+.contacto {
+  grid-area: contacto; }
 
-.main__cata__section1--article3 h3 {
-  color: green; }
+.footer {
+  grid-area: footer; }
 
-.main__cata__section2--article4 h3 {
-  color: blueviolet; }
+.main__contacto {
+  background-color: #bdb4b4;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 90vh; }
 
-.main__cata__section2--article5 h3 {
-  color: brown; }
+.main__contacto h1 {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 45px;
+  font-weight: bold; }
 
-.main__cata__section1--article1--div {
-  display: flex; }
+.main__contacto__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 90%;
+  padding-left: 30px;
+  align-items: center; }
 
-.main__cata__section1--article1--div img {
-  margin-left: 100px;
-  padding: 10px; }
+.main__contacto__section img {
+  margin-left: 110px;
+  margin-top: 70px; }
+
+.main__contacto--form {
+  padding-left: 100px;
+  padding-top: 20px; }
+
+.submit-reset {
+  padding: 30px; }
+
+.footer {
+  background-color: #313030;
+  display: flex;
+  justify-content: space-around; }
+
+.footer__redes {
+  padding: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.footer__redes img {
+  padding: 7px; }
+
+.footer__formulario {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-left: 40px; }
+
+.footer__formulario--h3 {
+  color: #eeeaea; }
+
+.footer__formulario--input label {
+  color: white;
+  padding-left: 130px; }
+
+.footer__formulario--input--email {
+  background-color: #eeeaea;
+  border: none;
+  background: none;
+  border-bottom: 1px solid white;
+  outline: none; }
+
+.footer__enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 20vw;
+  padding-top: 10px; }
+
+.footer__enlaces li {
+  list-style: circle;
+  display: inline;
+  padding: 2px;
+  justify-content: flex-end; }
+
+.footer__enlaces li a {
+  text-decoration: none;
+  color: white; }
+
+.footer__copyright {
+  color: white;
+  padding-top: 70px;
+  display: block;
+  padding-left: 100px; }
 
 @media screen and (max-width: 768px) {
   .header {
@@ -490,24 +545,7 @@
     padding-bottom: 20px; }
   .main__contacto__section--ubicacion iframe {
     width: 80vw;
-    height: 60vh; }
-  .footer {
-    flex-direction: column;
-    height: 50vh;
-    width: 100%; }
-  .footer__redes {
-    padding-left: 250px; }
-  .footer__redes img {
-    padding: 10px; }
-  .footer__formulario {
-    padding-left: 150px; }
-  .footer__enlaces {
-    flex-direction: row;
-    padding-left: 180px;
-    width: 40%; }
-  .footer__copyright {
-    padding-left: 180px;
-    padding-bottom: 20px; } }
+    height: 60vh; } }
 
 @media screen and (max-width: 480px) {
   .header {
@@ -569,91 +607,4 @@
     padding-bottom: 20px; }
   .main__contacto__section--ubicacion iframe {
     width: 70vw;
-    height: 50vh; }
-  /* -----------------------------------------FOOTER DE TODAS LAS PAGINAS------------------------------- */
-  .footer {
-    flex-direction: column;
-    height: 80vh;
-    width: 100%; }
-  .footer__redes {
-    justify-content: center;
-    padding-left: 140px;
-    height: 20vh;
-    padding-top: 80px; }
-  .footer__enlaces {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 10vw;
-    padding-left: 200px;
-    padding-top: 20px;
-    height: 25%; }
-  .footer__formulario--input {
-    padding-left: 40px;
-    padding-top: 20px; }
-  .footer__enlaces li {
-    padding: 5px;
-    font-size: 20px;
-    align-items: center;
-    padding: 10px; }
-  .footer__copyright {
-    text-align: center;
-    padding-bottom: 60px;
-    height: 5vh; } }
-
-.footer {
-  background-color: #0c4408;
-  display: flex;
-  justify-content: space-around;
-  height: 25vh; }
-
-.footer__redes {
-  padding: 25px;
-  padding-right: 20px;
-  padding-left: 30px;
-  display: flex;
-  justify-content: space-evenly;
-  width: 150px; }
-
-.footer__redes img {
-  padding: 7px; }
-
-.footer__formulario {
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  margin-left: 10px; }
-
-.footer__formulario--h3 {
-  color: #eeeaea;
-  font-size: 14px; }
-
-.footer__formulario--input label {
-  color: white;
-  padding-left: 30px; }
-
-.footer__formulario--input--email {
-  background-color: #eeeaea; }
-
-.footer__enlaces {
-  display: flex;
-  flex-direction: row;
-  padding-left: 50px;
-  width: 300px;
-  padding-top: 10px; }
-
-.footer__enlaces li {
-  list-style: circle;
-  display: inline;
-  padding: 2px;
-  justify-content: flex-end; }
-
-.footer__enlaces li a {
-  text-decoration: none;
-  color: white; }
-
-.footer__copyright {
-  color: white;
-  padding-top: 70px;
-  margin-right: 40px;
-  width: 390px; }
+    height: 50vh; } }

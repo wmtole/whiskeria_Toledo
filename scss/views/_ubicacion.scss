@@ -1,0 +1,54 @@
+.main__ubicacion {
+  background-color: #bdb4b4;
+  background-image: linear-gradient(0deg, $color-gradient-parallax, $color-gradient-parallax), url("../multimedia/ubicacionimagen.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 150vh;
+}
+
+.main__ubicacion h1 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main__contacto__section--ubicacion {
+  width: 50%;
+  padding-top: 50px;
+  margin-bottom: 200px;
+  padding-right: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__contacto__section--ubicacion--div {
+  display: flex;
+  justify-content: center;
+  margin-right: 120px;
+  padding-left: 200px;
+  width: 80%;
+}
+
+.main__contacto__section--ubicacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 350px;
+  padding-top: 100px;
+}
+
+.main__contacto__section--ubicacion iframe {
+  padding-left: 50px;
+}
+
+.main__contacto__section--ubicacion--div p {
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.main__contacto__section--ubicacion--div img {
+  margin-bottom: 30px;
+}

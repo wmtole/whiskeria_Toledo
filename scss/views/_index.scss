@@ -1,0 +1,211 @@
+.main {
+    background-color: $color-fondos-pages;
+    height: 470vh;
+
+    &__div {
+        background-image: linear-gradient(0deg, $color-gradient-parallax, $color-gradient-parallax), url("../multimedia/scotch-whisky-banner.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__div p {
+        font-size: 30px;
+        font-weight: bold;
+        color: white;
+    }
+
+    &__div button {
+        color: white;
+        background-color: $color-button-tienda;
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px;
+        font-weight: bold;
+        box-shadow: 2px, 2px black;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    &__div button:hover {
+        background-color: #cf451a;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    &__div h1 {
+        color: #f1e4e4;
+        font-size: $fuente-h1;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    &__p {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 32px;
+        font-size: 25px;
+        font-weight: bold;
+        animation-name: efecto-main__p;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-delay: 1s;
+    }
+
+    &__section {
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    &__section--article {
+        padding: 15px;
+        width: 50%;
+        font-size: 20px;
+        background-color: $color-header-objetos;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-right: 5px;
+        margin-left: 10px;
+        height: 30%;
+    }
+
+    &__section--article--h2 {
+        text-align: center;
+        padding-bottom: 20px;
+        font-size: $fuente-h2
+    }
+
+    &__section--article img {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__section--aside img {
+        float: right;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    &__section--aside {
+        width: 50%;
+        display: inline-block;
+        justify-content: space-around;
+        padding: 15px;
+        font-size: 20px;
+        background-color: $color-header-objetos;
+        border: 2px solid black;
+        border-radius: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        height: 30%;
+    }
+
+    &__section--aside--h3 {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    &__section--aside p {
+        padding-bottom: 30px;
+    }
+}
+
+.card-group {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fdebd6;
+}
+
+#carouselExampleIndicators {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+@keyframes efecto-main__p {
+    0% {
+        padding-right: 0px;
+    }
+
+    25% {
+        padding-right: 50px;
+    }
+
+    50% {
+        padding-left: 25px;
+    }
+
+    75% {
+        padding-left: 50px;
+    }
+
+    100% {
+        padding-left: 25px;
+    }
+}
+
+.card-group {
+    gap: 10px;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.card {
+    background-color: #fdebd6;
+}
+
+#boton-galeria {
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+    animation-name: boton-galeria;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes boton-galeria {
+    0% {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    25% {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    50% {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+    75% {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    100% {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+}
