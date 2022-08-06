@@ -361,7 +361,8 @@
 
 .main__ubicacion h1 {
   text-align: center;
-  padding-top: 40px; }
+  padding-top: 40px;
+  color: white; }
 
 .main__contacto__section--ubicacion {
   width: 50%;
@@ -369,7 +370,8 @@
   margin-bottom: 200px;
   padding-right: 100px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  color: white; }
 
 .main__contacto__section--ubicacion--div {
   display: flex;
