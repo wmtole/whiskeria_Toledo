@@ -1,116 +1,107 @@
 .main__historia {
-  background-color: #bdb4b4;
-  height: 500vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/historia-del-whisky-portada-articulo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
+  background-color: $color-fondos-pages;
+  
+     
+     h1 {
+         color: $color-fuente-historia;
+         padding-top: 30px;
+         text-align: center;
+         font-size: $fuente-h1;
+         font-weight: bold;
+     }
+ 
+     &__section1--article1,
+     &__section1--article2,
+     &__section1--article3 {
+         padding-top: 20px;
+         padding-bottom: 20px;
+         color: rgb(218, 207, 207);
+         font-size: $fuente-cata;
+         margin-left: 10px;
+         margin-right: 10px;
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+ 
+     }
+ 
+     &__section1--article1 h2,
+     &__section1--article2 h2,
+     &__section1--article3 h2
+      {
+         text-align: center;
+         padding-bottom: 20px;
+         color: $color-button-tienda;
+         font-weight: bold;
+     }
 
-.main__historia h1 {
-  color: white;
-}
-
-.main__historia__section1--article1 {
-  font-size: $fuente-cata;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.main__historia__section1--article2 {
-  font-size: $fuente-cata;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.main__historia__section1--article3 {
-  font-size: $fuente-cata;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.main__historia__section1--article4 {
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-.main__historia__section1--article1,
-.main__historia__section1--article2,
-.main__historia__section1--article3,
-.main__historia__section1--article4 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #dacfcf;
-}
-
-.main__historia__section1--article1 h3,
-.main__historia__section1--article2 h3,
-.main__historia__section1--article3 h3,
-.main__historia__section1--article4 h3 {
-  text-align: center;
-  padding-bottom: 20px;
-  color: white;
-  font-size: $fuente-h3
-}
-
-.main__historia__section1--article1 img {
-  float: left;
-  padding: 15px;
-}
-
-.main__historia__section1--article2 img {
-  float: right;
-  padding: 15px;
-}
-
-.main__historia__section1--article3 img {
-  float: left;
-  padding: 15px;
-}
-
-.main__historia__section1--article4 img {
-  float: right;
-  padding: 15px;
-}
-
-.main__historia--h2 {
-  text-align: center;
-  color: white;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  font-size: 30px;
-}
-
-.main__historia__section2--fila1 {
-  display: flex;
-}
-
-.main__historia__section2--fila2 {
-  display: flex;
-}
-
-.main__historia__section2--fila1--article1,
-.main__historia__section2--fila1--article2,
-.main__historia__section2--fila2--article3,
-.main__historia__section2--fila2--article4 {
-  width: 50%;
-}
-
-.main__historia__section2--fila1--article1 iframe,
-.main__historia__section2--fila1--article2 iframe,
-.main__historia__section2--fila2--article3 iframe,
-.main__historia__section2--fila2--article4 iframe {
-  padding: 20px;
-}
-
-.main__historia__section2--fila1--article1 {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.main__historia__section2--fila2--article3 {
-  margin-right: 20px;
-  margin-left: 20px;
-}
+     .main__historia--h2 {
+      color: $color-button-tienda;
+     }
+ 
+     &__section1--article1 p,
+     &__section1--article2 p,
+     &__section1--article3 p {
+         padding: 10px;
+         margin-left: 20px;
+         margin-right: 20px;
+         color: $color-fuente-historia;
+ 
+     }
+ 
+     &__section1--article1 h2 {
+         padding-top: 40px;
+     }
+ 
+     &__section1--article1 img {
+         padding: 30px;
+         margin-top: 30px;
+        margin: auto;
+     }
+ 
+     &__section1--article2 img {
+         padding: 30px;
+         margin-top: 80px;
+         margin: auto;
+     }
+ 
+     &__section1--article3 img {
+         padding: 30px;
+         margin-top: 30px;
+         margin: auto;
+     }
+ 
+     &__section1--article2 h3 {
+         padding: 10px;
+         color: $color-fuente-historia;
+         font-size: $fuente-h3;
+         font-weight: bold;
+         margin-left: 100px;
+     }
+ 
+     &--h2 {
+         text-align: center;
+         color: black;
+         font-weight: bold;
+         padding-bottom: 40px;
+         font-size: $fuente-h2
+     }
+ 
+     &__section2--fila1{
+         display: flex;
+         flex-wrap: wrap;
+         margin-left: 60px;
+     }
+ 
+     &__section2--fila1--article1 iframe,
+     &__section2--fila1--article2 iframe,
+     &__section2--fila1--article3 iframe,
+     &__section2--fila1--article4 iframe {
+         padding: 10px;
+         width: 300px;
+     }
+ 
+ 
+     }
+ 
+ 

@@ -4,7 +4,7 @@
 
 .main {
   background-color: #f1f0e1;
-  height: 470vh; }
+  width: 100%; }
   .main__div {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/scotch-whisky-banner.jpg");
     background-repeat: no-repeat;
@@ -253,102 +253,75 @@
   padding: 10px; }
 
 .main__historia {
-  background-color: #bdb4b4;
-  height: 500vh;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/historia-del-whisky-portada-articulo.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover; }
-
-.main__historia h1 {
-  color: white; }
-
-.main__historia__section1--article1 {
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.main__historia__section1--article2 {
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.main__historia__section1--article3 {
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.main__historia__section1--article4 {
-  font-size: 25px;
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.main__historia__section1--article1,
-.main__historia__section1--article2,
-.main__historia__section1--article3,
-.main__historia__section1--article4 {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #dacfcf; }
-
-.main__historia__section1--article1 h3,
-.main__historia__section1--article2 h3,
-.main__historia__section1--article3 h3,
-.main__historia__section1--article4 h3 {
-  text-align: center;
-  padding-bottom: 20px;
-  color: white;
-  font-size: 30px; }
-
-.main__historia__section1--article1 img {
-  float: left;
-  padding: 15px; }
-
-.main__historia__section1--article2 img {
-  float: right;
-  padding: 15px; }
-
-.main__historia__section1--article3 img {
-  float: left;
-  padding: 15px; }
-
-.main__historia__section1--article4 img {
-  float: right;
-  padding: 15px; }
-
-.main__historia--h2 {
-  text-align: center;
-  color: white;
-  padding-bottom: 40px;
-  padding-top: 40px;
-  font-size: 30px; }
-
-.main__historia__section2--fila1 {
-  display: flex; }
-
-.main__historia__section2--fila2 {
-  display: flex; }
-
-.main__historia__section2--fila1--article1,
-.main__historia__section2--fila1--article2,
-.main__historia__section2--fila2--article3,
-.main__historia__section2--fila2--article4 {
-  width: 50%; }
-
-.main__historia__section2--fila1--article1 iframe,
-.main__historia__section2--fila1--article2 iframe,
-.main__historia__section2--fila2--article3 iframe,
-.main__historia__section2--fila2--article4 iframe {
-  padding: 20px; }
-
-.main__historia__section2--fila1--article1 {
-  margin-right: 20px;
-  margin-left: 20px; }
-
-.main__historia__section2--fila2--article3 {
-  margin-right: 20px;
-  margin-left: 20px; }
+  background-color: #f1f0e1; }
+  .main__historia h1 {
+    color: black;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold; }
+  .main__historia__section1--article1, .main__historia__section1--article2, .main__historia__section1--article3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #dacfcf;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .main__historia__section1--article1 h2,
+  .main__historia__section1--article2 h2,
+  .main__historia__section1--article3 h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #cb1c1c;
+    font-weight: bold; }
+  .main__historia .main__historia--h2 {
+    color: #cb1c1c; }
+  .main__historia__section1--article1 p,
+  .main__historia__section1--article2 p,
+  .main__historia__section1--article3 p {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black; }
+  .main__historia__section1--article1 h2 {
+    padding-top: 40px; }
+  .main__historia__section1--article1 img {
+    padding: 30px;
+    margin-top: 30px;
+    margin: auto; }
+  .main__historia__section1--article2 img {
+    padding: 30px;
+    margin-top: 80px;
+    margin: auto; }
+  .main__historia__section1--article3 img {
+    padding: 30px;
+    margin-top: 30px;
+    margin: auto; }
+  .main__historia__section1--article2 h3 {
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px; }
+  .main__historia--h2 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    padding-bottom: 40px;
+    font-size: 35px; }
+  .main__historia__section2--fila1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px; }
+  .main__historia__section2--fila1--article1 iframe,
+  .main__historia__section2--fila1--article2 iframe,
+  .main__historia__section2--fila1--article3 iframe,
+  .main__historia__section2--fila1--article4 iframe {
+    padding: 10px;
+    width: 300px; }
 
 .main__ubicacion {
   background-color: #bdb4b4;
@@ -356,8 +329,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  height: 150vh; }
+  background-size: cover; }
 
 .main__ubicacion h1 {
   text-align: center;
@@ -399,31 +371,13 @@
 .main__contacto__section--ubicacion--div img {
   margin-bottom: 30px; }
 
-.container__contacto {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: .1fr .1fr .1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "header header" "contacto contacto" "footer footer"; }
-
-.header {
-  grid-area: header; }
-
-.contacto {
-  grid-area: contacto; }
-
-.footer {
-  grid-area: footer; }
-
 .main__contacto {
-  background-color: #bdb4b4;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/contactoimagen.jpg");
+  background-color: bdb4b4;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/multimedia/alcohol-alcoholic-cold-12591.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  background-size: cover;
-  height: 90vh; }
+  background-size: cover; }
 
 .main__contacto h1 {
   font-weight: bold;
@@ -516,6 +470,12 @@
     flex-direction: column;
     height: 25vh;
     padding-top: 10px; }
+  .main__historia {
+    height: auto; }
+  .main__historia {
+    height: auto; }
+  .main__contacto {
+    height: auto; }
   .header__form {
     padding-bottom: 20px; }
   .main__section {
