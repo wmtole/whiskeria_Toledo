@@ -1,11 +1,11 @@
 .main__cata {
     background-color: #f1f0e1;
-    height: 180vh;
+    height: auto;
   }
   
   .main__cata h1 {
     text-align: center;
-    margin-top: 15px;
+
   }
   
   .main__cata h2 {
@@ -61,51 +61,13 @@
     padding-bottom: 10px;
   }
   
-  .main__cata__section1--article1 {
-    margin-right: 20px;
-    margin-left: 50px;
-  }
-  
-  .main__cata__section1--article2 {
-    margin-right: 20px;
-  }
-  
-  .main__cata__section1--article3 {
-    margin-right: 50px;
-  }
-  
-  .main__cata__section2--article4 {
-    margin-right: 20px;
-    margin-left: 200px;
-  }
-  
-  .main__cata__section2--article5 {
-    margin-right: 200px;
-  }
+
   
   .main__cata__div {
     padding-top: 60px;
   }
   
-  .main__cata__section1--article1 h3 {
-    color: red;
-  }
-  
-  .main__cata__section1--article2 h3 {
-    color: blue;
-  }
-  
-  .main__cata__section1--article3 h3 {
-    color: green;
-  }
-  
-  .main__cata__section2--article4 h3 {
-    color: blueviolet;
-  }
-  
-  .main__cata__section2--article5 h3 {
-    color: brown;
-  }
+
   
   .main__cata__section1--article1--div {
     display: flex;
@@ -115,3 +77,104 @@
     margin-left: 100px;
     padding: 10px;
   }
+
+
+  .main__cata h1 {
+    text-align: center;
+
+  }
+  
+  .main__cata h2 {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+.catas__cards {
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+}
+
+
+  .catas__cards--1, .catas__cards--2, .catas__cards--3, .catas__cards--4, .catas__cards--5 {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h4 {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background:#fdebd6;
+    padding: 15px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+}
+
+.card .back h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+

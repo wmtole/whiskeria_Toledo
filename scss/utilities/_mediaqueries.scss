@@ -1,8 +1,8 @@
 @media screen and (max-width: 768px) {
     .header {
       flex-direction: column;
-      height: 25vh;
-      padding-top: 10px;
+      height: auto;
+      
     }
 
     
@@ -10,14 +10,12 @@
       height: auto;
   
   }
-    .main__historia {
+
+
+  
+    .main__cata{
       height: auto;
     }
-
-    .main__contacto {
-      height: auto;
-    }
-
 
     .header__form {
       padding-bottom: 20px;
@@ -35,7 +33,7 @@
   
     .main__section2 {
       flex-direction: column;
-      height: 80vh;
+      height: auto;
     }
   
     .main__section2--article1,
@@ -66,7 +64,7 @@
   
     .main__contacto__section--ubicacion iframe {
       width: 80vw;
-      height: 60vh;
+      height: auto;
     }
   
     
@@ -75,9 +73,8 @@
   @media screen and (max-width: 480px) {
     .header {
       flex-direction: column;
-      height: 38vh;
-      padding-top: 10px;
-      padding-bottom: 10px;
+      height: auto;
+
     }
   
     .header__buscador {
@@ -109,7 +106,7 @@
       padding: 20px;
       padding-left: 40px;
       width: 280px;
-      height: 200px;
+      height: auto;
     }
   
     .main__section--article,
@@ -125,7 +122,7 @@
   
     .main__section2 {
       flex-direction: column;
-      height: 100%;
+      height: auto;
       padding: 5px;
     }
   
@@ -147,6 +144,10 @@
       margin-top: 10px;
     }
   
+    .main__contacto {
+      height: auto;
+    }
+    
     .main__contacto__section--ubicacion {
       margin: 0;
       padding: 0;
@@ -166,9 +167,12 @@
   
     .main__contacto__section--ubicacion iframe {
       width: 70vw;
-      height: 50vh;
+      height: auto;
     }
   
+    .main__cata{
+      height: auto;
+    }
   
   
   }
