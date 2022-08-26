@@ -31,12 +31,12 @@
       {
          text-align: center;
          padding-bottom: 20px;
-         color: $color-button-tienda;
+         color: $color-button-index-historiah2;
          font-weight: bold;
      }
 
      .main__historia--h2 {
-      color: $color-button-tienda;
+      color: $color-button-index-historiah2;
      }
  
      &__section1--article1 p,
@@ -90,7 +90,8 @@
      &__section2--fila1{
          display: flex;
          flex-wrap: wrap;
-         margin-left: 60px;
+         justify-content: space-around;
+         align-items: center;
      }
  
      &__section2--fila1--article1 iframe,

@@ -4,13 +4,19 @@
   }
   
   .main__cata h1 {
+    color: $color-fuente-historia;
+    padding-top: 30px;
     text-align: center;
+    font-size: $fuente-h1;
+    font-weight: bold;
 
   }
   
   .main__cata h2 {
     text-align: center;
     padding-top: 40px;
+    color: $color-button-index-historiah2;
+    font-weight: bold;
   }
   
   .main__cata__section1 {
@@ -18,12 +24,7 @@
     padding: 20px;
   }
   
-  .main__cata h3 {
-    text-align: justify;
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 20px;
-  }
+
   
   .main__cata h3 {
     text-align: justify;
@@ -31,6 +32,7 @@
     font-weight: bold;
     font-size: 20px;
     padding: 20px;
+    
   }
   
   .main__cata ul {

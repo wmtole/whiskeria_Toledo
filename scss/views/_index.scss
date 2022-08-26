@@ -25,7 +25,7 @@
 
     &__div button {
         color: white;
-        background-color: $color-button-tienda;
+        background-color:$color-button-index-historiah2;
         border: 1px solid black;
         border-radius: 10px;
         font-size: 25px;
@@ -39,7 +39,7 @@
     }
 
     &__div button:hover {
-        background-color: #cf451a;
+        background-color: #f28f1d;
         transition: 0.5s;
         cursor: pointer;
     }
@@ -65,11 +65,6 @@
         animation-delay: 1s;
     }
 
-    &__section {
-        display: flex;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
 
     &__section--article {
         padding: 15px;
@@ -95,34 +90,59 @@
         margin-bottom: 10px;
     }
 
-    &__section--aside img {
-        float: right;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-    &__section--aside {
-        width: 50%;
-        display: inline-block;
-        justify-content: space-around;
-        padding: 15px;
-        font-size: 20px;
-        background-color: $color-header-objetos;
-        border: 2px solid black;
-        border-radius: 10px;
-        margin-left: 5px;
-        margin-right: 10px;
-        height: 30%;
-    }
-
-    &__section--aside--h3 {
+    & h3 {
         text-align: center;
-        padding-bottom: 20px;
     }
 
-    &__section--aside p {
-        padding-bottom: 30px;
+    .main__index__sections {
+        margin: 20px;
     }
+
+ .main__index__section1--1, .main__index__section1--2, .main__index__section1--3 {
+    margin-bottom: 10px;
+ }
+
+ .main__index__section2--4, .main__index__section2--5, .main__index__section2--6 {
+    margin-top: 10px;
+ }
+
+.button--index1 {
+margin-top: 10px;
+color: white;
+font-weight: bold;
+background-color: $color-button-index-historiah2;
+}
+
+.button--index1:hover {
+    background-color: #f28f1d;
+        transition: 0.5s;
+        cursor: pointer;
+}
+
+.button--index2 {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: $color-button-index-historiah2;
+}
+
+.button--index2:hover {
+    background-color: #f28f1d;
+        transition: 0.5s;
+        cursor: pointer;
+}
+
+.button--index3 {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: $color-button-index-historiah2;
+}
+
+.button--index3:hover {
+    background-color: #f28f1d;
+        transition: 0.5s;
+        cursor: pointer;
 }
 
 .card-group {
@@ -133,36 +153,6 @@
     background-color: #fdebd6;
 }
 
-#carouselExampleIndicators {
-    padding-right: 100px;
-    padding-left: 100px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-
-
-@keyframes efecto-main__p {
-    0% {
-        padding-right: 0px;
-    }
-
-    25% {
-        padding-right: 50px;
-    }
-
-    50% {
-        padding-left: 25px;
-    }
-
-    75% {
-        padding-left: 50px;
-    }
-
-    100% {
-        padding-left: 25px;
-    }
-}
 
 .card-group {
     gap: 10px;
@@ -174,39 +164,4 @@
     background-color: #fdebd6;
 }
 
-#boton-galeria {
-    margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
-    animation-name: boton-galeria;
-    animation-duration: 4s;
-    animation-delay: 1s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes boton-galeria {
-    0% {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
-
-    25% {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    50% {
-        margin-left: 300px;
-        margin-right: 300px;
-    }
-
-    75% {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-
-    100% {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
 }

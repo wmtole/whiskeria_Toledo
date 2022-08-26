@@ -17,7 +17,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
   <!-- CSS Bootstrap only-->
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="./CSS/styles.css">
@@ -26,10 +28,15 @@
 </head>
 
 <body id="body__index">
+
   <!-- Logo + header -->
+
   <header>
-    <nav class="navbar navbar-expand-lg" style="background-color: gray">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(197, 186, 186);">
       <div class="container-fluid">
+
+        <!-- logo -->
+
         <a class="navbar-brand" href="./index.html">
           <img src="./multimedia/glass.png" alt="" height="50px" width="50px">
         </a>
@@ -37,6 +44,9 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+        <!-- reedirección a las distintas secciones -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -55,8 +65,10 @@
               <a class="nav-link active" aria-current="page" href="pages/contacto.html">Contacto</a>
             </li>
           </ul>
+          <!-- busqueda en las distintas secciones de la pagina -->
+
           <form class="d-flex" role="search">
-            <input class="form-control me-2" style="background-color:rgb(197, 186, 186)" type="search"
+            <input class="form-control me-2" style="background-color:rgb(228, 215, 215)" type="search"
               placeholder="Buscar" aria-label="Search">
             <button class="btn btn-outline-dark" type="submit">Buscar</button>
           </form>
@@ -64,155 +76,163 @@
       </div>
     </nav>
   </header>
-  <!-- Acá comienza el contenido principal de la pagina -->
+
+  <!-- Contenido principal de la pagina -->
+
   <main class="main">
     <div class="main__div">
-      <H1>TU PORTAL SOBRE WHISKYS</H1>
+      <H1><u>TU PORTAL SOBRE WHISKYS</u></H1>
       <p>Encontrá la mejor información</p>
+
+      <!-- Este botón nos reedirige a la sección de catas -->
+
       <form action="./pages/catas.html">
         <button>Ingresá aquí</button>
       </form>
     </div>
-    <p class="main__p">Nos une la pasión por el whisky, queremos que te hagas miembro para disfrutar de nuestra información</p>
+    <p class="main__p">Nos une la pasión por el whisky, queremos que te hagas miembro para disfrutar de nuestra
+      información.</p>
 
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="./multimedia/whisky dia mundial-1-1170x680.jpg" class="card-img-top" alt="whisky dia mundial" title="whisky1"
-              height="250px" width="350px">
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">5 whiskies para celebrar el Día Mundial del Whisky 2022</h3>
-              <p class="card-text">
-                Empezamos con Abasolo, Desde México, está elaborado con maíz criollo cacahuazintle, un tipo de maíz exclusiamente mexicano, cultivado durante más de 200 generaciones. Luego seguimos con M&H, En Milk & Honey están apostando por la innovación y pronto darán el salto, su Classic Single Malt es una buena opción para iniciarse en el Día Mundial del Whisky 2022.
-              </p>
+    <!-- Aquí comienza la primer sección, separada en tres partes -->
+
+    <!-- sección 1 de 3 -->
+
+    <div class="main__index__sections">
+      <div class="container-fluid main__index__section1">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section1--1">
+            <div class="card">
+              <img src="./multimedia/whisky dia mundial-1-1170x680.jpg" class="card-img-top" alt="whisky dia mundial"
+                title="whisky1" height="250px" width="350px">
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">5 whiskies para celebrar el Día Mundial del
+                  Whisky 2022</h3>
+                <p class="card-text">
+                  Empezamos con Abasolo, Desde México, está elaborado con maíz criollo cacahuazintle, un tipo de maíz
+                  exclusiamente mexicano, cultivado durante más de 200 generaciones. Luego seguimos con M&H, En Milk &
+                  Honey están apostando por la innovación y pronto darán el salto esperado.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- sección 2 de 3 -->
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section1--2">
+            <div class="card">
+              <img src="./multimedia/mas-vendidos-2020-head-1170x680.jpg" class="card-img-top" alt="mas vendidos 2020"
+                title="mas vendidos 2020" height="250px" width="350px">
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">
+                  Los whiskies más vendidos en 2020</h3>
+                <p class="card-text">Curiosamente, y pese a todos los impedimentos que 2020 ha traído, algunas marcas no
+                  sólo se han mantenido, sino que han crecido sus números entre los whiskies más vendidos de 2020. Uno
+                  de los afortunados ha sido el straight bourbon de Kentucky (Jim Beam, Maker’s Mark, Bulleit, Wild
+                  Turkey).</p>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- sección 3 de 3 -->
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section1--3">
+            <div class="card">
+              <img src="./multimedia/hundireltrebol.jpg" class="card-img-top" alt="whisky irlanda"
+                title="whisky cultura irlandesa" height="250px" width="350px">
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">El whiskey en la cultura irlandesa</h3>
+                <p class="card-text">
+                  El whiskey es, desde siempre, la bebida que escogen los irlandeses para brindar. El whiskey es tan
+                  importante que en las bodas irlandesas el pastel tradicional es una tarta de whiskey. Dice la
+                  tradición que la pareja debe guardar la parte superior de la tarta de bodas hasta que nazca el primer
+                  hijo. </p>
+
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="./multimedia/mas-vendidos-2020-head-1170x680.jpg" class="card-img-top" alt="mas vendidos 2020" title="mas vendidos 2020"
-              height="250px" width="350px">
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">
-                Los whiskies más vendidos en 2020</h3>
-              <p class="card-text">Curiosamente, y pese a todos los impedimentos que 2020 ha traído, algunas marcas no sólo se han mantenido, sino que han crecido sus números entre los whiskies más vendidos de 2020. Uno de los afortunados ha sido el straight bourbon de Kentucky (Jim Beam, Maker’s Mark, Bulleit, Wild Turkey). Al quedarse en casa confinados, son muchos los que han decidido invertir algo más en su minibar casero.</p>
-            
+
+      </div>
+
+      <!-- Aquí comienza la segunda sección, separada en tres partes, que nos linkea a la sección de historia-->
+      <!-- sección 4 de 6 -->
+
+      <div class="container-fluid main__index__section2">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section2--4">
+            <div class="card">
+              <a href="./pages/historia.html"> <img src="multimedia/MAKERSMARK.jpg" class="card-img-top" alt="Perro"
+                  title="Perro" height="250px" width="350px"></a>
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">La historia de Maker’s Mark</h3>
+                <p class="card-text">A principios de los años 40, Bill Samuels Sr, sexta generación de destiladores,
+                  vendió la destilería de sus antepasados por una importante suma de dinero, que con mucho esfuerzo le
+                  permitió abrir la propia y crear su propio negocio exitoso.
+                  <a class="btn d-md-flex justify-content-md-center button--index1" href="./pages/historia.html"
+                    role="button">Ir a historia</a>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Próximo a actualizarse</small>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <img src="./multimedia/hundireltrebol.jpg" class="card-img-top" alt="whisky irlanda" title="whisky cultura irlandesa"
-            height="250px" width="350px">
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">El whiskey en la cultura irlandesa</h3>
-              <p class="card-text">
-                El whiskey es, desde siempre, la bebida que escogen los irlandeses para brindar. El whiskey es tan importante que en las bodas irlandesas el pastel tradicional es una tarta de whiskey. Dice la tradición que la pareja debe guardar la parte superior de la tarta de bodas hasta que nazca el primer hijo, para usar la tarta en su bautismo. «Al ser una tarta de whiskey, puede conservarse hasta un año», dicen los irlandeses.
-                
-              </p>
 
+          <!-- sección 4 de 6 -->
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section2--5">
+            <div class="card">
+              <a href="./pages/historia.html"> <img src="multimedia/dalwhinnie-distillery.jpg" class="card-img-top"
+                  alt="dalwhinnie" title="dalwhinnie-distillery" height="250px" width="350px"></a>
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">Dalwhinnie, la destilería más fría de Escocia
+                </h3>
+                <p class="card-text">Dalwhinnie es una de las marcas de Single Malt más vendidas de Diageodentro de
+                  Escocia y de toda la región escandinaba y más allá.</p>
+                <a class="btn d-md-flex justify-content-md-center button--index2" href="./pages/historia.html"
+                  role="button">Ir a historia</a>
+
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Próximo a actualizarse</small>
+              </div>
+            </div>
+          </div>
+
+          <!-- sección 4 de 6 -->
+
+          <div class="col-12 col-sm-6 col-lg-4 col-xl-4 main__index__section2--6">
+            <div class="card">
+              <a href="./pages/historia.html"> <img src="multimedia/whisky.caro.jpg" class="card-img-top"
+                  alt="whisky caro" title="whisky mas caro" height="250px" width="350px"></a>
+              <div class="card-body">
+                <h3 class="card-title d-md-flex justify-content-center">
+                  Venden el whiskey más caro de la historia</h3>
+                <p class="card-text">El "Santo Grial" de los whiskies batió el récord de la botella más cara jamás
+                  vendida, llegando a costar varios miles de dólares.
+                  <a class="btn d-md-flex justify-content-md-center button--index3" href="./pages/historia.html"
+                    role="button">Ir a historia</a>
+                </p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Próximo a actualizarse</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
- <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <a href="./pages/historia.html"> <img src="multimedia/MAKERSMARK.jpg" class="card-img-top" alt="Perro"
-              title="Perro" height="250px" width="350px"></a>
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">La historia de Maker’s Mark</h3>
-              <p class="card-text">A principios de los años 40, Bill Samuels Sr, sexta generación de destiladores, vendió la destilería de su...
-                <a class="btn btn-dark d-md-flex justify-content-md-center button--index1" href="./pages/historia.html"
-                  role="button">Leer en historia</a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Próximo a actualizarse</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <a href="./pages/historia.html"> <img src="multimedia/dalwhinnie-distillery.jpg" class="card-img-top" alt="dalwhinnie" title="dalwhinnie-distillery"
-              height="250px" width="350px"></a>
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">Dalwhinnie, la destilería más fría de Escocia</h3>
-              <p class="card-text">Dalwhinnie es una de las marcas de Single Malt más vendidas de Diageo (la cuarta después de Cardhu, Talisker y...
-                <a class="btn btn-dark d-md-flex justify-content-md-center button--index2" href="./pages/historia.html"
-                  role="button">Leer en historia</a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Próximo a actualizarse</small>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-12 col-md-6 col-lg-4">
-          <div class="card">
-            <a href="./pages/historia.html"> <img src="multimedia/whisky.caro.jpg" class="card-img-top"
-              alt="whisky caro" title="whisky mas caro" height="250px" width="350px"></a>
-            <div class="card-body">
-              <h3 class="card-title d-md-flex justify-content-center">
-                Venden el whiskey más caro de la historia</h3>
-              <p class="card-text">El "Santo Grial" de los whiskies batió el récord de la botella más cara jamás vendida, llegando a... 
-                <a class="btn btn-dark d-md-flex justify-content-md-center button--index3" href="./pages/historia.html"
-                  role="button">Leer en historia</a>
-              </p>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Próximo a actualizarse</small>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-          aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-          aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-          aria-label="Slide 3"></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="multimedia/index1.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/index2.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="multimedia/index3.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
   </main>
+
   <!-- Acá comienza el footer -->
+
   <footer>
-    <div class="container-fluid" style="background-color: #0c4408">
+    <div class="container-fluid" style="background-color: #062204">
       <div class="row">
+
+        <!--links a las distintas redes sociales -->
+
         <div class="col-lg-3 col-md-6 col-xs-12 footer__redes">
           <div class="footer__redes">
             <a href="https://www.instagram.com/" target="_blank">
@@ -233,12 +253,15 @@
               </a>
           </div>
         </div>
+
+        <!-- suscripción-->
+
         <div class="col-lg-6 col-md-6 col-xs-12 footer__formulario ">
           <div class="footer__formulario">
 
             <div class="footer__formulario--h3">
-              <h3>CONVERTITE EN MIEMBRO Y EMPEZÁ A DISFRUTAR DE NUESTROS BENEFICIOS EXCLUSIVOS</h3>
-            </div> 
+              <h3>Convertite en miembro y empezá a disfrutar de nuestros beneficios</h3>
+            </div>
 
             <div class="footer__formulario--input">
               <form action="">
@@ -249,12 +272,18 @@
               </form>
             </div>
           </div>
+
+          <!-- copyright-->
+
           <div class="row">
             <div class="footer__copyright">
               <p>© 2010-2022, Whisky®. Todos los derechos reservados</p>
             </div>
           </div>
         </div>
+
+        <!--enlaces a las distintas secciones -->
+
         <div class="col-lg-2 col-md-6 col-xs-12 footer__enlaces">
 
           <div class="footer__enlaces">
@@ -263,16 +292,16 @@
                 <li> <a href="./index.html" target="_self">Inicio</a></li>
               </div>
               <div class="row">
-                <li> <a href="./pages/catas.html" >Catas</a></li>
+                <li> <a href="./pages/catas.html">Catas</a></li>
               </div>
               <div class="row">
-                <li> <a href="./pages/historia.html" >Historia</a></li>
+                <li> <a href="./pages/historia.html">Historia</a></li>
               </div>
               <div class="row">
-                <li> <a href="./pages/ubicacion.html" >Ubicación</a></li>
+                <li> <a href="./pages/ubicacion.html">Ubicación</a></li>
               </div>
               <div class="row">
-                <li> <a href="./pages/contacto.html" >Contacto</a></li>
+                <li> <a href="./pages/contacto.html">Contacto</a></li>
               </div>
             </ul>
           </div>
@@ -282,6 +311,7 @@
   </footer>
 
   <!-- JavaScript Bundle with Popper -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
   </script>
