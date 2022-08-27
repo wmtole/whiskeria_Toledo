@@ -148,7 +148,9 @@
   padding: 20px; }
 
 .main__cata ul {
-  padding-left: 120px; }
+  display: flex;
+  justify-content: right;
+  flex-direction: column; }
 
 .main__cata__section2 {
   display: flex;
@@ -194,7 +196,11 @@
   align-items: center;
   flex-wrap: wrap; }
 
-.catas__cards--1, .catas__cards--2, .catas__cards--3, .catas__cards--4, .catas__cards--5 {
+.catas__cards--1,
+.catas__cards--2,
+.catas__cards--3,
+.catas__cards--4,
+.catas__cards--5 {
   position: relative;
   width: 400px;
   height: 350px;

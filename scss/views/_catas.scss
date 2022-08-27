@@ -1,182 +1,190 @@
 .main__cata {
-    background-color: #f1f0e1;
-    height: auto;
-  }
-  
-  .main__cata h1 {
-    color: $color-fuente-historia;
-    padding-top: 30px;
-    text-align: center;
-    font-size: $fuente-h1;
-    font-weight: bold;
+  background-color: #f1f0e1;
+  height: auto;
+}
 
-  }
-  
-  .main__cata h2 {
-    text-align: center;
-    padding-top: 40px;
-    color: $color-button-index-historiah2;
-    font-weight: bold;
-  }
-  
-  .main__cata__section1 {
-    display: flex;
-    padding: 20px;
-  }
-  
+.main__cata h1 {
+  color: $color-fuente-historia;
+  padding-top: 30px;
+  text-align: center;
+  font-size: $fuente-h1;
+  font-weight: bold;
 
-  
-  .main__cata h3 {
-    text-align: justify;
-    margin-top: 5px;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 20px;
-    
-  }
-  
-  .main__cata ul {
-    padding-left: 120px;
-  }
-  
-  .main__cata__section2 {
-    display: flex;
-    padding: 20px;
-  }
-  
-  .main__cata__section1--article1,
-  .main__cata__section1--article2,
-  .main__cata__section1--article3 {
-    width: 33.3%;
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: #fdebd6;
-    padding-bottom: 10px;
-  }
-  
-  .main__cata__section2--article4,
-  .main__cata__section2--article5 {
-    width: 50%;
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: #fdebd6;
-    padding-bottom: 10px;
-  }
-  
+}
 
-  
-  .main__cata__div {
-    padding-top: 60px;
-  }
-  
+.main__cata h2 {
+  text-align: center;
+  padding-top: 40px;
+  color: $color-button-index-historiah2;
+  font-weight: bold;
+}
 
-  
-  .main__cata__section1--article1--div {
-    display: flex;
-  }
-  
-  .main__cata__section1--article1--div img {
-    margin-left: 100px;
-    padding: 10px;
-  }
-
-
-  .main__cata h1 {
-    text-align: center;
-
-  }
-  
-  .main__cata h2 {
-    text-align: center;
-    padding-top: 40px;
-  }
-
-.catas__cards {
-display: flex;
-justify-content: space-around;
-align-items: center;
-flex-wrap: wrap;
+.main__cata__section1 {
+  display: flex;
+  padding: 20px;
 }
 
 
-  .catas__cards--1, .catas__cards--2, .catas__cards--3, .catas__cards--4, .catas__cards--5 {
-    position: relative;
-    width: 400px;
-    height: 350px;
-    margin: 20px;
+
+.main__cata h3 {
+  text-align: justify;
+  margin-top: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+
+}
+
+.main__cata ul {
+
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+
+
+}
+
+.main__cata__section2 {
+  display: flex;
+  padding: 20px;
+}
+
+.main__cata__section1--article1,
+.main__cata__section1--article2,
+.main__cata__section1--article3 {
+  width: 33.3%;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #fdebd6;
+  padding-bottom: 10px;
+}
+
+.main__cata__section2--article4,
+.main__cata__section2--article5 {
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 30px;
+  background-color: #fdebd6;
+  padding-bottom: 10px;
+}
+
+
+
+.main__cata__div {
+  padding-top: 60px;
+}
+
+
+
+.main__cata__section1--article1--div {
+  display: flex;
+}
+
+.main__cata__section1--article1--div img {
+  margin-left: 100px;
+  padding: 10px;
+}
+
+
+.main__cata h1 {
+  text-align: center;
+
+}
+
+.main__cata h2 {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.catas__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.catas__cards--1,
+.catas__cards--2,
+.catas__cards--3,
+.catas__cards--4,
+.catas__cards--5 {
+  position: relative;
+  width: 400px;
+  height: 350px;
+  margin: 20px;
 }
 
 .card .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: .5s;
 }
 
 .card .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
+  transform: perspective(600px) rotateY(0deg);
+  box-shadow: 0 5px 10px #000;
 }
 
 .card .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card .front h4 {
-    position: absolute;
-    bottom: 0;
-    padding-bottom: 20px;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0,0,0,.4);
-    text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  background: rgba(0, 0, 0, .4);
+  text-align: center;
 }
 
 .card .back {
-    transform: perspective(600px) rotateY(180deg);
-    background:#fdebd6;
-    padding: 15px;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
+  transform: perspective(600px) rotateY(180deg);
+  background: #fdebd6;
+  padding: 15px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  box-shadow: 0 5px 10px #000;
 }
 
 .card .back .link {
-    border-top: solid 1px #f3f3f3;
-    height: 50px;
-    line-height: 50px;
+  border-top: solid 1px #f3f3f3;
+  height: 50px;
+  line-height: 50px;
 }
 
 .card .back .link a {
-    color: #f3f3f3;
+  color: #f3f3f3;
 }
 
 .card .back h4 {
-    font-size: 30px;
-    margin-top: 20px;
-    letter-spacing: 2px;
+  font-size: 30px;
+  margin-top: 20px;
+  letter-spacing: 2px;
 }
 
 .card .back p {
-    letter-spacing: 1px;
-} 
+  letter-spacing: 1px;
+}
 
 .card:hover .front {
-    transform: perspective(600px) rotateY(180deg);
+  transform: perspective(600px) rotateY(180deg);
 }
 
 .card:hover .back {
-    transform: perspective(600px) rotateY(360deg);
+  transform: perspective(600px) rotateY(360deg);
 }
-
